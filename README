@@ -1,7 +1,7 @@
 DataTables is a plug-in for the jQuery Javascript library.
 It is avaliable here: http://www.datatables.net/
 
-DataTables-EU-date-Plug-In is a plug-in for sorting EU Date (european date format), (d)d.mm(.yyyy) or (d)d/mm(/yyyy)
+DataTables-EU-date-Plug-In-2 is a plug-in for sorting EU Date (european date format), (d)d.mm(.yyyy) or (d)d/mm(/yyyy) and custom date format (d)d-MMM(-yyyy) 
 
 Example:
 <script type="text/javascript" src="jquery.dataTables.js"></script>
