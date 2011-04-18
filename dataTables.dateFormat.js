@@ -25,15 +25,17 @@ function calculate_date(date) {
 	
 	/*month*/
 	var month = eu_date[1];
+	var monthDone = false;
 	if(!isNaN(month - 0)) {
 		if (month.length == 1) {
 			month = 0+month;
 		}
 	} else {	
-		for (var i = 0; i < monthAbbreviations.length; i++) {
-			var month_name = monthAbbreviations [i];
+		for (var i = 0; i < monthAbbreviations.length && !monthDone; i++) {
+			var month_name = monthAbbreviations[i];
 			if (month.toLowerCase() == month_name.toLowerCase()) {
 				month = (i%12) + 1;
+				monthDone = true;
 			}
 		}
 	}
